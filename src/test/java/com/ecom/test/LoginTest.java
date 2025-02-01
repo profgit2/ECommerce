@@ -1,7 +1,7 @@
 package com.ecom.test;
 
-public class HomeTest {
-
+public class LoginTest {
+	
 public static void main(String[] args) {
 		
 		System.out.println("Inside main method");
@@ -23,5 +23,6 @@ public static void main(String[] args) {
 		
 		
 	}
+
 
 }

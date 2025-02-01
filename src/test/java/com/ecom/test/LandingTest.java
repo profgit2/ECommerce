@@ -1,6 +1,6 @@
 package com.ecom.test;
 
-public class HomeTest {
+public class LandingTest {
 
 public static void main(String[] args) {
 		

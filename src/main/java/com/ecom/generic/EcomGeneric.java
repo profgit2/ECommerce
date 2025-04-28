@@ -9,7 +9,21 @@ public class EcomGeneric {
 		System.out.println("Inside the main method of EcomGeneric Class...");
 		System.out.println("Inside the main method of EcomGeneric Class...");
 		System.out.println("Inside the main method of EcomGeneric Class...");
+		              
 		
+
+		System.out.println("Inside the main method of EcomGeneric Class...");
+		System.out.println("Inside the main method of EcomGeneric Class...");
+		System.out.println("Inside the main method of EcomGeneric Class...");
+		System.out.println("Inside the main method of EcomGeneric Class...");
+		              
+		
+
+		System.out.println("Inside the main method of EcomGeneric Class...");
+		System.out.println("Inside the main method of EcomGeneric Class...");
+		System.out.println("Inside the main method of EcomGeneric Class...");
+		System.out.println("Inside the main method of EcomGeneric Class...");
+		              
 	}
 
 }

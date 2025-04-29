@@ -32,6 +32,5 @@ public class StringDigits {
 	public static void main(String[] args) {
 		
 		countDigits("Lax66m8anMore%$$#");
-		
 	}
 }

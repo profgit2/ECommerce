@@ -17,6 +17,5 @@ public class EvenOrOddNUmber {
 		{
 			System.out.println("Number is odd "+ num);
 		}
-		//laxman
 	}
 }

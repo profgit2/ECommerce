@@ -13,7 +13,7 @@ public class ExceptionDemo {
   
             // Setting a cause of the exception 
             ex.initCause(new NullPointerException( 
-                      "This is actual cause of the exception")); 
+                     "This is actual cause of the exception")); 
             // Throwing an exception with cause. 
             throw ex; 
         } 

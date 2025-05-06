@@ -1,8 +1,6 @@
 package com.java.programs;
 
-import java.awt.geom.FlatteningPathIterator;
 import java.util.HashSet;
-import java.util.Optional;
 import java.util.Spliterator;
 
 public class HashSetDemo {

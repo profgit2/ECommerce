@@ -4,7 +4,7 @@ public class DuplicateWordsWithCount {
 
 	public static void main(String[] args) {
 		
-        String providedString = "laxman more more more";
+        String providedString = "laxman more more more laxman";
         String[] brokenString = providedString.trim().split(" ");
         int count =0;
         for (int i =0; i < brokenString.length; i++){

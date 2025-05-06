@@ -10,7 +10,7 @@ public class HashMapCountWords {
 
 	public static void main(String[] args) {
 		
-		String name="Laxman Laxman Laxman More Matekarwadi Matekarwadi Matekarwadi Yenpe Yenpe karad";
+		String name="India Shrilanka Poland India Poland";
 		String words[]=name.trim().split("\\s");
 		Map<String, Integer> map= new HashMap<String, Integer>();
         for(int i=0;i<words.length;i++) {
@@ -33,11 +33,13 @@ public class HashMapCountWords {
         
   Set<Entry<String,Integer>> setValue=map.entrySet();
   
-  Iterator<Entry<String,Integer>> itr=setValue.iterator();
+  Iterator<Map.Entry<String,Integer>> itr=setValue.iterator();
   
      while(itr.hasNext()) {
-    	 Entry<String,Integer> entry=(Entry<String,Integer>)itr.next();
+    	 Entry<String,Integer> entry=(Map.Entry<String,Integer>)itr.next();
+    	 if(entry.getValue()>1) {
     	 System.out.println(entry.getKey()+ " "+entry.getValue());
+    	 }
      }
 	}
 }

@@ -27,9 +27,9 @@ public class Fibnaccie_Series {
 		//int fib_num=8;
 		//int arr[]= new int[10];
 		//fibonaccie_series(fib_num);
-		   int num=1;
-		   System.out.println(num<0);
-           while(num<0) {
+		   int num=98;
+		   //System.out.println(num<0);
+           while(num>0) {
 			f3=f1+f2;
 			f1=f2;
 			f2=f3;
@@ -38,7 +38,7 @@ public class Fibnaccie_Series {
 			//i++;
 			num--;
 		}
-		System.out.println("False");
+		//System.out.println("False");
 	    /*arr =fibonaccie_series(fib_num);
 	    for(int i=0;i<arr.length;i++) {
 	    	System.out.print(","+arr[i]);

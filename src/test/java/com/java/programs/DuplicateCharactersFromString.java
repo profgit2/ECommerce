@@ -5,7 +5,7 @@ public class DuplicateCharactersFromString {
 	public static void main(String[] args) {
 		
 		
-		String string1 = "aaaa";  
+		String string1 = "llaxxman";  
         int count=0;  
         //Converts given string into character array  
         char string[] = string1.toCharArray();  
@@ -25,6 +25,5 @@ public class DuplicateCharactersFromString {
                 System.out.println(string[i]+" "+count);  
             }
         }
-        
 	}
 }
